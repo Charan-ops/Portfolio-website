@@ -42,7 +42,7 @@ export default function Projects() {
       title: 'KubeAutoPilot',
       description: 'KubeAutoPilot is an end-to-end automation framework designed to provision production-ready Kubernetes clusters using Terraform and Ansible with minimal manual intervention. The solution automates infrastructure creation, VM configuration, Kubernetes control-plane initialization, worker node onboarding, and essential cluster add-ons deployment.',
       technologies: ['IaC (Terraform and AWS & MetalLb)', 'Configuration Management & Automation (Bash Scripting)', 'Kubernetes components', 'OS / Linux coniguration', 'Data Formats & Templates (YAML, JSON)', 'Security & Secrets'],
-      github_url: 'https://github.com',
+      github_url: 'https://github.com/Charan-ops/KubeAutoPilot',
       live_url: null,
       image_url: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg'
     },
@@ -51,7 +51,7 @@ export default function Projects() {
       title: 'KubeCrafter',
       description: 'Built a comprehensive CI/CD pipeline reducing deployment time by 70% and improving code quality with automated testing.',
       technologies: ['Jenkins', 'Docker', 'SonarQube', 'Nexus', 'Git'],
-      github_url: 'https://github.com',
+      github_url: 'https://github.com/Charan-ops/Kubecrafter',
       live_url: null,
       image_url: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg'
     },
