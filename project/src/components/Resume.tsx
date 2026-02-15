@@ -26,9 +26,12 @@ export default function Resume() {
         .eq('is_active', true);
 
       if (error) throw error;
+      console.log('Fetched resume files:', data);
       setResumeFiles(data || []);
     } catch (error) {
       console.error('Error fetching resume files:', error);
+      // Fall back to default files if fetch fails
+      setResumeFiles([]);
     } finally {
       setLoading(false);
     }
